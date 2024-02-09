@@ -1,5 +1,8 @@
 const { Select } = require('enquirer');
 
+function run() {
+
+
 console.log('')
 
 const people = [
@@ -100,7 +103,8 @@ prompt.run()
         break;
     }
 
-    console.log('\n\n\n\n\n\n\n')
+    console.log('\n\n\n\n')
+    run()
   })
   .catch(console.error);
 
@@ -109,3 +113,6 @@ console.log('')
 
 
 
+}
+
+run()
