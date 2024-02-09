@@ -50,7 +50,7 @@ const prompt = new Select({
   name: 'firstchoice',
   message: '\nWelcome to Table Topics chooser. Make a selection with the arrow keys and press \'Enter\'\n' +
   '\n\nChoose a random statistic on:\n\n',
-  choices: ['People', 'Relationships', 'Public Speaking', 'Not sure. You pick for me']
+  choices: ['Not sure. You pick for me', 'People', 'Relationships', 'Public Speaking']
 });
 
 const getChoice = (list) => {
