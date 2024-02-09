@@ -79,6 +79,7 @@ const getChoice = (list) => {
 }
 
 
+
 prompt.run()
   .then(answer => {
     console.log('')
@@ -99,10 +100,12 @@ prompt.run()
         break;
     }
 
-    console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+    console.log('\n\n\n\n\n\n\n')
   })
   .catch(console.error);
 
 
 console.log('')
+
+
 
