@@ -103,7 +103,7 @@ prompt.run()
         break;
     }
 
-    console.log('\n\n\n\n')
+    console.log('\n')
     run()
   })
   .catch(console.error);
