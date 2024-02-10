@@ -1,3 +1,4 @@
+const colors = require('ansi-colors');
 const { Select } = require("enquirer");
 
 
@@ -65,7 +66,7 @@ function getChoice(list) {
 
   let randomIndex = Math.floor(Math.random() * arr.length);
 
-  return arr[randomIndex];
+  return colors.yellow(arr[randomIndex]);
 }
 
 function run() {
